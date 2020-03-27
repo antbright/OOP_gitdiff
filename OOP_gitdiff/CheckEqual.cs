@@ -10,8 +10,8 @@ namespace OOP_gitdiff
         public static bool FileEquals(string path1, string path2)
         {
             //reading both files byte by byte
-            byte[] file_A = File.ReadAllBytes(@"..\\..\\file_A.txt");
-            byte[] file_B = File.ReadAllBytes(@"..\\..\\file_B.txt");
+            byte[] file_A = File.ReadAllBytes(@"file_A.txt");
+            byte[] file_B = File.ReadAllBytes(@"file_B.txt");
             
             //checking if files are equal
             if (file_A.Length == file_B.Length)
